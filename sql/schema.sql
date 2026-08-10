@@ -1,3 +1,8 @@
+-- Bank Customer Churn Analysis
+-- Table structure for imported European Bank customer data
+
+DROP TABLE IF EXISTS customers;
+
 CREATE TABLE customers (
     Year INTEGER,
     CustomerId BIGINT,
